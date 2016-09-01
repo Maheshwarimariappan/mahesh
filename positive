@@ -5,15 +5,12 @@ void main()
 int n;
 printf("enter the number");
 scanf("%d",&n);
-if(n<0)
+if(n>0)
 {
 printf("positive number");
 }
-elseif(n>0)
+else
 {
 printf("negative number");
-}
-elseif(n=0)
-{printf("it is zero");
 }
 }
